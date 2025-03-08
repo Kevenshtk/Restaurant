@@ -1,0 +1,35 @@
+.card
+    flex-grow: 1
+    width: 250px
+    display: flex
+    flex-direction: column
+    border: 1px solid goldenrod
+    border-radius: 4px
+
+    .cardImage
+        height: 250px
+
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            border-radius: 5px
+
+    .cardContent
+        flex: 1 1 150px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        padding: 10px
+
+        div:nth-child(1)
+            display: flex
+            flex-direction: column
+            gap: 5px
+
+        small
+            color: #daa520
+
+        div:nth-child(2)
+            text-align: right
+            font-weight: 600

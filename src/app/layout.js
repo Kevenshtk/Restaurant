@@ -1,4 +1,5 @@
 import "./globals.sass";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Restaurant",
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-br">
       <body>
         {children}
+        <SpeedInsights/>
       </body>
     </html>
   );
